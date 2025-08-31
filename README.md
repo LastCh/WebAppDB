@@ -93,25 +93,6 @@ Logs are printed to the console in the following format:
 > Localized error messages are configured in `messages.properties`.
 
 
-## Project Structure
-WebAppDB/
-├── src/
-│ ├── main/
-│ │ ├── java/ru/bmstu/WebAppDB/
-│ │ │ ├── config/
-│ │ │ ├── controller/
-│ │ │ ├── dto/
-│ │ │ ├── entity/
-│ │ │ ├── exception/
-│ │ │ ├── facade/
-│ │ │ ├── repository/
-│ │ │ └── service/
-│ │ └── resources/
-│ │ ├── application.yml
-│ │ └── db/migration/
-├── pom.xml
-└── README.md
-
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
